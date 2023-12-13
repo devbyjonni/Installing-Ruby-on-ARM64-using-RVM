@@ -9,6 +9,12 @@
 
   You should have OpenSSL 1.1.x. If it shows a different version, install OpenSSL 1.1.x first.
 
+- **Install Homebrew:**
+  If Homebrew is not installed, you can install it using the following command:
+  ```bash
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+  ```
+
 ## Installation Steps
 
 1. Install OpenSSL 1.1.x:

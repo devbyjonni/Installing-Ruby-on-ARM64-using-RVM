@@ -46,3 +46,24 @@
 ## Result
 
 You should see the installed Ruby versions, and you can now use them for your projects.
+
+## Additional Steps
+
+- Install [RVM](https://rvm.io/rvm/install) first!
+- Update RVM if necessary:
+  ```bash
+  rvm get stable
+  ```
+
+- Install Ruby:
+  ```bash
+  rvm install ruby-2.7.2
+  ```
+
+- Use Ruby:
+  ```bash
+  rvm use ruby-2.7.2
+  ```
+
+- Bundler:
+  The `bundle` command is included with RVM installs of Ruby.

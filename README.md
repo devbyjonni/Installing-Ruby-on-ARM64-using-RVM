@@ -87,12 +87,11 @@ You should see the installed Ruby versions, and you can now use them for your pr
 rvm list
 ```
 This should display the installed versions with ARM64 architecture:
+ ```bash
 => ruby-2.7.2 [ arm64 ]
 * ruby-3.0.0 [ arm64 ]
+```
 
-=> - current
-=* - current && default
- *  - default
 
 
   

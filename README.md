@@ -2,12 +2,20 @@
 
 ## Prerequisites
 
+- Confirm the system architecture is ARM64:
+  ```bash
+  uname -m
+  ```
+
+  The output should be `arm64`. If it's not, ensure you are running this on an ARM64-based system.
+
 - Confirm OpenSSL 1.1.x is enabled:
   ```bash
   openssl version
   ```
 
   You should have OpenSSL 1.1.x. If it shows a different version, install OpenSSL 1.1.x first.
+
 
 - **Install Homebrew:**
   If Homebrew is not installed, you can install it using the following command:
